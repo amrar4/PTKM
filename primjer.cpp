@@ -18,9 +18,7 @@ using namespace std;
 void BellmanFord(int graph[][3], int V, int E,int src)
 {
 	// Initialize distance of all vertices as infinite.
-	int dis[V];
-	for (int i = 0; i < V; i++)
-		dis[i] = INT_MAX;       //INT_MAX je beskonacno
+	      //INT_MAX je beskonacno
 
 	// initialize distance of source as 0 
 	//Inicijalizacija izvora na 0      
